@@ -1,4 +1,6 @@
-body{background-color: aqua;}
+body{background-image: url("../img/hatter.jpg");
+                        background-repeat: no-repeat;
+                        background-size:  100%;}
 /* This hides all pages */
 .page {
     display: none;
@@ -25,3 +27,23 @@ body{background-color: aqua;}
 .default, :target {
     display: block;
 }
+.navbar{width: 90%;
+        margin: auto;
+        background-color:rgba(240, 248, 255, 0.815)
+        }
+.content{width: 90%;
+         margin: auto;
+         background-color:rgba(240, 248, 255, 0.815);
+         margin-top: 5px;}
+      
+nav a{text-decoration: none;
+  padding: 10px;
+  color: black;}
+
+
+b{padding-left: 1rem;
+  padding-right: 8rem;}
+
+a:hover{background-color: grey;
+       text-decoration: none;}
+.menuelemek{float: right;}
