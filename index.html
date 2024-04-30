@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -14,8 +14,8 @@
         <b>Hotel Iris</b>
         <div class="menuelemek">
         <a href="#kezdolap">Kezdőlap</a>
-        <a href="#aloldal">Aloldal</a>
-        <a href="#aloldal1">Aloldal1</a>
+        <a href="#aloldal">Szobáink</a>
+        <a href="#aloldal1">Szórakozási lehetőségeink</a>
         </div>
     </nav>
     </div>
@@ -24,10 +24,44 @@
         All the divs with the content you want to serve. Notice page1 sits last. 
         This is important for the CSS to work.
     -->
-    <div id="kezdolap" class="page">Kezdolap</div>
+    <div id="kezdolap" class="page"><h2>Rólunk</h2>
+    <p>A Hotel Iris egy bájos szálloda, mely Velencében található.
+    A szálloda kényelmes szobákat kínál, melyek modern berendezéssel és kellemes környezettel rendelkeznek.
+    Az Iris szálloda szívélyes személyzettel várja vendégeit, és kiváló szolgáltatásokat nyújt,
+    hogy az ott-tartózkodásuk felejthetetlen legyen.
+    A Hotel Iris szálloda szép kerttel és pihentető terasszal is rendelkezik,
+    ahol a vendégek nyugodtan pihentetnek és kikapcsolódhatnak.
+    Az étteremben finom ételek várják a vendégeket,
+    és a wellness részleg pedig tökéletes lehetőséget biztosít a relaxálásra.
+    A Hotel Iris ideális választás lehet bárki számára,
+    aki pihentető és kellemes környezetben szeretne eltölteni egy pár napot.
+    A Hotel Iris szálloda kiváló választás lehet azok számára,
+    akik szeretnének elszakadni a mindennapok zajától, és egy nyugodt,
+    kényelmes környezetben pihenni.
+    A szálloda hangulatos belső terei és barátságos légköre garantáltan
+    felejthetetlenné teszi az ott-töltött időt.</p>
+    <div class="row">
+    <div class="col-md-4 card" id="szall"><img src="img/szalloda1.jpg" alt=""></div>
+    <div class="col-md-4 card" id="szall"><img src="img/szalloda2.jpg" alt=""></div>
+    <div class="col-md-4 card" id="szall"><img src="img/szalloda3.jpg" alt=""></div>
+    </div>
+    </div>
+
+
     <div id="aloldal" class="page">Aloldal</div>
 
-    <div id="aloldal1" class="page">[some content]</div>
+    <div id="aloldal1" class="page"><h2>Lehetőségek a közelben</h2>
+    <p>Velence egy gyönyörű város Olaszországban, amely híres a csatornáiról, történelmi épületeiről
+    és romantikus hangulatáról. Az egyik legismertebb látványosság a Szent Márk tér, ahol a lenyűgöző
+    Szent Márk bazilika található. Ne hagyd ki a Dózse-palotát sem, ami a velencei kormányzó hivatalos
+    rezidenciája volt régen. Ha szereted a művészetet, látogass el a Peggy Guggenheim gyűjteménybe is,
+    ahol sok lenyűgöző műalkotást láthatsz. A városban sétálva élvezheted az egyedülálló hangulatot
+    és szépséget, ami Velencére jellemző.</p>
+    <div class="row">
+    <div class="col-md-4 card" id="velen"><img src="img/velence1.jpg" alt=""></div>
+    <div class="col-md-4 card" id="velen"><img src="img/velence2.JPG" alt=""></div>
+    <div class="col-md-4 card" id="velen"><img src="img/velence3.jpg" alt=""></div>
+    </div>
     </div>
 </body>
 </html>
